@@ -1,0 +1,1 @@
+C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Chapter8.csproj;x64

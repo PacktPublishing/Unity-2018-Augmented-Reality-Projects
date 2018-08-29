@@ -1,0 +1,898 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-M9NR5VQ</Machine>
+    <WindowsUser>jglov</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>fabdc901-ee65-45d5-bdb6-ae8622e0831c</PackageIdentityName>
+    <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\bin\x64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>5E16BB247B519FBBC83BE08518A42149612E67AB12691B6C2123E76DBCA67CC9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Template3D_1.0.0.0_x64__pzq3xp76mxafg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>Template3D_pzq3xp76mxafg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>Template3D</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DefaultCompany</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\bin\x64\Release\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-07-06T11:07:35.037</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\bin\x64\Release\Chapter8.exe">
+      <PackagePath>entrypoint\Chapter8.exe</PackagePath>
+      <Modified>2018-07-06T11:07:21.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
+      <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
+      <Modified>2015-06-17T07:46:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.applicationinsights.persistencechannel\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.PersistenceChannel.dll">
+      <PackagePath>Microsoft.ApplicationInsights.PersistenceChannel.dll</PackagePath>
+      <Modified>2015-06-17T07:57:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.applicationinsights.windowsapps\1.0.0\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.dll">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.dll</PackagePath>
+      <Modified>2015-06-17T08:13:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.csharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2015-07-22T15:06:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2015-07-22T15:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2015-07-22T15:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2015-07-22T15:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2015-07-22T15:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2015-07-22T15:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2015-07-22T15:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2015-07-22T15:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2015-07-22T15:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2015-07-22T15:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2015-07-22T15:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2015-07-22T15:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.netcore.portable.compatibility\1.0.0\lib\netcore50\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2015-07-22T15:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.visualbasic\10.0.0\lib\netcore50\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2015-07-22T15:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\microsoft.win32.primitives\4.0.0\lib\dotnet\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2015-07-22T15:07:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.appcontext\4.0.0\lib\netcore50\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2015-07-22T15:07:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.collections\4.0.10\lib\netcore50\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2015-07-22T15:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.collections.concurrent\4.0.10\lib\dotnet\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2015-07-22T15:07:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.collections.immutable\1.1.37\lib\dotnet\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2015-07-22T15:07:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.collections.nongeneric\4.0.0\lib\dotnet\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2015-07-22T15:07:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.collections.specialized\4.0.0\lib\dotnet\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2015-07-22T15:07:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.componentmodel\4.0.0\lib\netcore50\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2015-07-22T15:07:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.componentmodel.annotations\4.0.10\lib\dotnet\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2015-07-22T15:07:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.componentmodel.eventbasedasync\4.0.10\lib\dotnet\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2015-07-22T15:07:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.data.common\4.0.0\lib\dotnet\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2015-07-22T15:07:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.diagnostics.contracts\4.0.0\lib\netcore50\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2015-07-22T15:07:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.diagnostics.debug\4.0.10\lib\netcore50\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2015-07-22T15:07:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.diagnostics.stacktrace\4.0.0\lib\netcore50\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2015-07-22T15:07:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.diagnostics.tools\4.0.0\lib\netcore50\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2015-07-22T15:07:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.diagnostics.tracing\4.0.20\lib\netcore50\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2015-07-22T15:07:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.dynamic.runtime\4.0.10\lib\netcore50\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2015-07-22T15:07:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.globalization\4.0.10\lib\netcore50\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2015-07-22T15:08:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.globalization.calendars\4.0.0\lib\netcore50\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2015-07-22T15:07:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.globalization.extensions\4.0.0\lib\dotnet\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2015-07-22T15:07:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.io\4.0.10\lib\netcore50\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2015-07-22T15:08:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.io.compression\4.0.0\lib\netcore50\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2015-07-22T15:08:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.io.compression.clrcompression-x64\4.0.0\runtimes\win10-x64\native\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2015-07-22T14:49:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.io.compression.zipfile\4.0.0\lib\dotnet\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2015-07-22T15:08:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.io.filesystem\4.0.0\lib\netcore50\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2015-07-22T15:08:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.io.filesystem.primitives\4.0.0\lib\dotnet\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2015-07-22T15:08:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.io.isolatedstorage\4.0.0\lib\netcore50\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2015-07-22T15:08:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.io.unmanagedmemorystream\4.0.0\lib\dotnet\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2015-07-22T15:08:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.linq\4.0.0\lib\netcore50\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2015-07-22T15:08:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.linq.expressions\4.0.10\lib\netcore50\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2015-07-22T15:08:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.linq.parallel\4.0.0\lib\netcore50\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2015-07-22T15:08:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.linq.queryable\4.0.0\lib\netcore50\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2015-07-22T15:08:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.net.http\4.0.0\lib\netcore50\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2015-07-22T15:08:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.net.http.rtc\4.0.0\lib\netcore50\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2015-07-22T15:08:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.net.networkinformation\4.0.0\lib\netcore50\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2015-07-22T15:08:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.net.primitives\4.0.10\lib\netcore50\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2015-07-22T15:08:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.net.requests\4.0.10\lib\dotnet\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2015-07-22T15:08:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.net.sockets\4.0.0\lib\netcore50\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2015-07-22T15:08:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.net.webheadercollection\4.0.0\lib\dotnet\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2015-07-22T15:08:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.numerics.vectors\4.1.0\lib\dotnet\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2015-07-22T15:09:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.numerics.vectors.windowsruntime\4.0.0\lib\dotnet\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-07-22T15:09:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.objectmodel\4.0.10\lib\dotnet\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2015-07-22T15:09:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.private.datacontractserialization\4.0.0\lib\netcore50\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2015-07-22T15:09:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.private.networking\4.0.0\lib\netcore50\System.Private.Networking.dll">
+      <PackagePath>System.Private.Networking.dll</PackagePath>
+      <Modified>2015-07-22T15:09:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.private.servicemodel\4.0.0\lib\netcore50\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2015-07-22T15:09:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.private.uri\4.0.0\lib\netcore50\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2015-07-22T15:09:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.reflection\4.0.10\lib\netcore50\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2015-07-22T15:09:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.reflection.context\4.0.0\lib\netcore50\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2015-07-22T15:09:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.reflection.dispatchproxy\4.0.0\lib\netcore50\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2015-07-22T15:09:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.reflection.emit\4.0.0\lib\netcore50\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2015-07-22T15:09:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.reflection.emit.ilgeneration\4.0.0\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2015-07-22T15:09:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.reflection.emit.lightweight\4.0.0\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2015-07-22T15:09:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.reflection.extensions\4.0.0\lib\netcore50\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2015-07-22T15:09:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.reflection.metadata\1.0.22\lib\dotnet\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2015-07-22T15:09:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.reflection.primitives\4.0.0\lib\netcore50\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2015-07-22T15:09:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.reflection.typeextensions\4.0.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2015-07-22T15:09:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.resources.resourcemanager\4.0.0\lib\netcore50\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2015-07-22T15:09:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.runtime\4.0.20\lib\netcore50\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2015-07-22T15:09:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.runtime.extensions\4.0.10\lib\netcore50\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2015-07-22T15:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.runtime.handles\4.0.0\lib\netcore50\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2015-07-22T15:09:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.runtime.interopservices\4.0.20\lib\netcore50\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2015-07-22T15:09:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.runtime.interopservices.windowsruntime\4.0.0\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-07-22T15:09:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.runtime.numerics\4.0.0\lib\netcore50\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2015-07-22T15:09:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.runtime.serialization.json\4.0.0\lib\netcore50\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2015-07-22T15:09:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.runtime.serialization.primitives\4.0.10\lib\dotnet\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2015-07-22T15:10:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.runtime.serialization.xml\4.0.10\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2015-07-22T15:10:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.runtime.windowsruntime\4.0.10\lib\netcore50\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2015-07-22T15:10:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.runtime.windowsruntime.ui.xaml\4.0.0\lib\netcore50\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2015-07-22T15:10:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.security.claims\4.0.0\lib\dotnet\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2015-07-22T15:10:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.security.principal\4.0.0\lib\netcore50\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2015-07-22T15:10:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.servicemodel.duplex\4.0.0\lib\netcore50\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2015-07-22T15:10:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.servicemodel.http\4.0.10\lib\netcore50\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2015-07-22T15:10:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.servicemodel.nettcp\4.0.0\lib\netcore50\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2015-07-22T15:10:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.servicemodel.primitives\4.0.0\lib\netcore50\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2015-07-22T15:10:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.servicemodel.security\4.0.0\lib\netcore50\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2015-07-22T15:10:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.text.encoding\4.0.10\lib\netcore50\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2015-07-22T15:10:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.text.encoding.codepages\4.0.0\lib\dotnet\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2015-07-22T15:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.text.encoding.extensions\4.0.10\lib\netcore50\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2015-07-22T15:10:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.text.regularexpressions\4.0.10\lib\dotnet\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2015-07-22T15:10:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.threading\4.0.10\lib\netcore50\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2015-07-22T15:10:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.threading.overlapped\4.0.0\lib\netcore50\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2015-07-22T15:10:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.threading.tasks\4.0.10\lib\netcore50\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2015-07-22T15:10:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.threading.tasks.dataflow\4.5.25\lib\dotnet\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2015-07-22T15:10:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.threading.tasks.parallel\4.0.0\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2015-07-22T15:11:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.threading.timer\4.0.0\lib\netcore50\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2015-07-22T15:11:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.xml.readerwriter\4.0.10\lib\dotnet\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2015-07-22T15:11:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.xml.xdocument\4.0.10\lib\dotnet\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2015-07-22T15:11:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.xml.xmldocument\4.0.0\lib\dotnet\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2015-07-22T15:11:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\.nuget\packages\system.xml.xmlserializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2015-07-22T15:11:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2018.1.6f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x64\Release\UnityEngineProxy.dll">
+      <PackagePath>UnityEngineProxy.dll</PackagePath>
+      <Modified>2018-06-11T16:32:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Unprocessed\WinRTLegacy.dll">
+      <PackagePath>WinRTLegacy.dll</PackagePath>
+      <Modified>2018-06-11T16:29:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2018.1.6f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x64\Release\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2018-06-11T16:32:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2018.1.6f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x64\Release\BridgeInterface.dll">
+      <PackagePath>BridgeInterface.dll</PackagePath>
+      <Modified>2018-06-11T16:32:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2018.1.6f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x64\Release\UnityEngineDelegates.dll">
+      <PackagePath>UnityEngineDelegates.dll</PackagePath>
+      <Modified>2018-06-11T16:32:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2018.1.6f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x64\Release\BridgeInterface.winmd">
+      <PackagePath>BridgeInterface.winmd</PackagePath>
+      <Modified>2018-06-11T16:32:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2018.1.6f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x64\Release\UnityEngineDelegates.winmd">
+      <PackagePath>UnityEngineDelegates.winmd</PackagePath>
+      <Modified>2018-06-11T16:32:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2018.1.6f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x64\Release\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2018-06-11T16:32:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2018.1.6f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x64\Release\WinRTBridge.winmd">
+      <PackagePath>WinRTBridge.winmd</PackagePath>
+      <Modified>2018-06-11T16:32:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Resource.res">
+      <PackagePath>Resource.res</PackagePath>
+      <Modified>2018-07-06T11:02:08.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-06-09T01:53:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-06-09T01:53:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-06-09T01:53:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-06-09T01:53:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-06-09T01:53:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-06-09T01:53:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-06-09T01:53:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-06-09T01:53:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Data\boot.config">
+      <PackagePath>Data\boot.config</PackagePath>
+      <Modified>2018-07-06T11:01:57.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+      <Modified>2018-07-06T11:01:22.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+      <Modified>2018-07-06T11:01:20.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2018-06-11T15:21:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2018-07-06T11:01:57.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+      <Modified>2018-07-06T11:01:23.136</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2018-07-06T11:01:30.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Data\level0.resS">
+      <PackagePath>Data\level0.resS</PackagePath>
+      <Modified>2018-07-06T11:01:20.301</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\Data\managedAssemblies.txt">
+      <PackagePath>Data\managedAssemblies.txt</PackagePath>
+      <Modified>2018-07-06T11:02:08.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity\Hub\Editor\2018.1.6f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\dotnet\x64\Release\WinPixEventRuntime_UAP.dll">
+      <PackagePath>WinPixEventRuntime_UAP.dll</PackagePath>
+      <Modified>2018-06-11T16:32:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-04-19T14:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\bin\x64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-07-06T11:07:22.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.AccessibilityModule.dll">
+      <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.SpriteShapeModule.dll">
+      <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.260</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.StyleSheetsModule.dll">
+      <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.TerrainModule.dll">
+      <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.TerrainPhysicsModule.dll">
+      <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.TextRenderingModule.dll">
+      <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.TilemapModule.dll">
+      <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.UIElementsModule.dll">
+      <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.UIModule.dll">
+      <PackagePath>UnityEngine.UIModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.569</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.SpriteMaskModule.dll">
+      <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.UNETModule.dll">
+      <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.UnityConnectModule.dll">
+      <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.UnityWebRequestAssetBundleModule.dll">
+      <PackagePath>UnityEngine.UnityWebRequestAssetBundleModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.UnityWebRequestAudioModule.dll">
+      <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.UnityWebRequestModule.dll">
+      <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.UnityWebRequestTextureModule.dll">
+      <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.UnityWebRequestWWWModule.dll">
+      <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.VehiclesModule.dll">
+      <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.VideoModule.dll">
+      <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.VRModule.dll">
+      <PackagePath>UnityEngine.VRModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.898</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.WebModule.dll">
+      <PackagePath>UnityEngine.WebModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.929</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.WindModule.dll">
+      <PackagePath>UnityEngine.WindModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.UnityAnalyticsModule.dll">
+      <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:30.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.XRModule.dll">
+      <PackagePath>UnityEngine.XRModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.ScreenCaptureModule.dll">
+      <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.030</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.AIModule.dll">
+      <PackagePath>UnityEngine.AIModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.AnimationModule.dll">
+      <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.ARModule.dll">
+      <PackagePath>UnityEngine.ARModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.119</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.AssetBundleModule.dll">
+      <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.AudioModule.dll">
+      <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.ClothModule.dll">
+      <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.CoreModule.dll">
+      <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.CrashReportingModule.dll">
+      <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.482</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.DirectorModule.dll">
+      <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.dll">
+      <PackagePath>UnityEngine.dll</PackagePath>
+      <Modified>2018-07-06T11:02:01.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.SharedInternalsModule.dll">
+      <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.GameCenterModule.dll">
+      <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.ImageConversionModule.dll">
+      <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.IMGUIModule.dll">
+      <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.InputModule.dll">
+      <PackagePath>UnityEngine.InputModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.JSONSerializeModule.dll">
+      <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.ParticlesLegacyModule.dll">
+      <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.ParticleSystemModule.dll">
+      <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.PerformanceReportingModule.dll">
+      <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.Physics2DModule.dll">
+      <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.PhysicsModule.dll">
+      <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.GridModule.dll">
+      <PackagePath>UnityEngine.GridModule.dll</PackagePath>
+      <Modified>2018-07-06T11:07:31.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.Timeline.dll">
+      <PackagePath>UnityEngine.Timeline.dll</PackagePath>
+      <Modified>2018-07-06T11:07:32.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.UI.dll">
+      <PackagePath>UnityEngine.UI.dll</PackagePath>
+      <Modified>2018-07-06T11:07:32.160</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.SpatialTracking.dll">
+      <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
+      <Modified>2018-07-06T11:07:32.193</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.Analytics.dll">
+      <PackagePath>UnityEngine.Analytics.dll</PackagePath>
+      <Modified>2018-07-06T11:07:32.222</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.HoloLens.dll">
+      <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
+      <Modified>2018-07-06T11:07:32.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.StandardEvents.dll">
+      <PackagePath>UnityEngine.StandardEvents.dll</PackagePath>
+      <Modified>2018-07-06T11:07:32.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\UnityEngine.Networking.dll">
+      <PackagePath>UnityEngine.Networking.dll</PackagePath>
+      <Modified>2018-07-06T11:07:32.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jglov\Desktop\Unity3D AR Programming blueprints\Chapter Projects\Chapter8\To The HoloLens and Beyond\Chapter8\App\Chapter8\bin\x64\Release\Core\Chapter8.exe">
+      <PackagePath>Chapter8.exe</PackagePath>
+      <Modified>2018-07-06T11:07:35.024</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25915.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25915.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.25915.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.25915.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.25426.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.25426.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

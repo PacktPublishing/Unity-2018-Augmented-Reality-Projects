@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/FaceMaskExample/FaceMaskExample.unity
+  isLoaded: 1
+  isActive: 1

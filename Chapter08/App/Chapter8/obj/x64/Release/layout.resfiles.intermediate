@@ -1,0 +1,20 @@
+WinMetadata\Windows.winmd
+WinPixEventRuntime_UAP.dll
+Assets\SplashScreen.scale-200.png
+Assets\Square150x150Logo.scale-200.png
+Assets\Square44x44Logo.scale-200.png
+Assets\Square44x44Logo.targetsize-24.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+Assets\StoreLogo.png
+Assets\Wide310x150Logo.scale-200.png
+Data\boot.config
+Data\globalgamemanagers
+Data\globalgamemanagers.assets
+Data\level0
+Data\level0.resS
+Data\managedAssemblies.txt
+Data\Resources\unity default resources
+Data\Resources\unity_builtin_extra
+Data\sharedassets0.assets
+Properties\Default.rd.xml
+Resource.res

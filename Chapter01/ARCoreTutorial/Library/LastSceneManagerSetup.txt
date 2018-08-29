@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/arcore-unity-sdk-master/Assets/GoogleARCore/HelloARExample/Scenes/HelloAR.unity
+  isLoaded: 1
+  isActive: 1

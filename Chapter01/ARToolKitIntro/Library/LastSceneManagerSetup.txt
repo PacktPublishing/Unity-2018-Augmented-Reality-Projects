@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/ARToolKit5-Unity/Tutorial/BasicRunningScene.unity
+  isLoaded: 1
+  isActive: 1

@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/VuforiaIntroScene.unity
+  isLoaded: 1
+  isActive: 1
