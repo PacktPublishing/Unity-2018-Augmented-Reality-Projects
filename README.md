@@ -1,7 +1,3 @@
-## [Get this title for $10 on Packt's Spring Sale](https://www.packt.com/B09661?utm_source=github&utm_medium=packt-github-repo&utm_campaign=spring_10_dollar_2022)
------
-For a limited period, all eBooks and Videos are only $10. All the practical content you need \- by developers, for developers
-
 # Unity 2018 Augmented Reality Projects
 
 <a href="https://www.packtpub.com/game-development/unity-2018-augmented-reality-projects?utm_source=github&utm_medium=repository&utm_campaign=9781788838764"><img src="https://www.packtpub.com/sites/default/files/B09661_cover_New.png" alt="Unity 2018 Augmented Reality Projects" height="256px" align="right"></a>
